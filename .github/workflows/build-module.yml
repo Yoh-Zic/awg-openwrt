@@ -15,7 +15,6 @@ jobs:
           ARCH: mediatek-filogic
           FEEDNAME: amneziawg
           PACKAGES: kmod-amneziawg amneziawg-tools luci-proto-amneziawg
-          KEY_BUILD: ${{ secrets.KEY_BUILD }}
           INDEX: 1
 
       - name: Сборка модулей
